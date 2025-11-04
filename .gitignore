@@ -128,3 +128,9 @@ dmypy.json
 *.swp
 *.swo
 *~
+
+# Course example files
+archivos_ejemplo/
+archivo_prueba.txt
+numero.txt
+texto.txt
