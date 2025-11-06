@@ -25,3 +25,10 @@ print("Número complejo:", complejo)
 
 print("de entero a complejo:", complex(entero))
 print("de decimal a complejo:", complex(decimal))
+
+# conversiones de complejo a numero real no es posible directamente
+# print("de complejo a entero:", int(complejo))  # Esto generaría un error
+# print("de complejo a decimal:", float(complejo))  # Esto generaría un error
+
+print(int(complejo.real))
+
