@@ -50,5 +50,8 @@ print("Lista combinada:", lista_combinada)
 lista1.extend(lista2)
 print("Lista1 después de usar extend():", lista1)
 
-matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+matriz = [
+    [1, 2, 3], 
+    [4, 5, 6], 
+    [7, 8, 9]]
 print("Elemento en la fila 1, columna 2 de la matriz:", matriz[0][1])   
